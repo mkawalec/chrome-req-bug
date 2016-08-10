@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "browserify public/test.js -o public/test-transpiled.js -t babelify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "babelify": "^7.3.0",
+    "bluebird": "^3.4.1",
+    "browserify": "^13.1.0",
+    "express": "^4.14.0",
+    "lodash": "^4.14.2",
+    "serve-static": "^1.11.1"
+  }
+}
